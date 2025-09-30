@@ -1,27 +1,20 @@
-Learning Clock
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A simple web application that displays an analog station-style clock designed to help children learn to tell time. The clock has a minimalist black-and-white design with numbers 1–12 and tick marks at every 5 minutes.
+# Run and deploy your AI Studio app
 
-Features
-	•	Quarter-hour rounding: The clock always rounds the current time to the nearest quarter hour:
-	•	Minutes 53–07 → :00
-	•	Minutes 08–22 → :15
-	•	Minutes 23–37 → :30
-	•	Minutes 38–52 → :45
-	•	Analog display: Hour and minute hands update based on the rounded time.
-	•	Debug panel: Shows both the actual system time and the rounded time.
-	•	Manual input: Allows entering a custom time for testing, with option to reset to system time.
-	•	Responsive design: The clock automatically scales to fill nearly the entire screen, from very small to very large viewports.
+This contains everything you need to run your app locally.
 
-Files
-	•	index.html – Main HTML structure
-	•	style.css – Styling for the clock and debug panel
-	•	app.js – Logic for time rounding, updating, and input handling
+View your app in AI Studio: https://ai.studio/apps/drive/1rP0f6IuP9D-cBy7A_LGaHgm8tWffliSC
 
-Usage
+## Run Locally
 
-Open index.html in a browser. The clock will render and update every second. Use the debug panel to test with manual time input.
+**Prerequisites:**  Node.js
 
-⸻
 
-This clock has been generated using AIStudio and ChatGPT5.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

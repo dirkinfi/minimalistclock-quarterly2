@@ -1,0 +1,5 @@
+{
+  "name": "Minimalist Station Clock",
+  "description": "A simple, responsive, and aesthetically pleasing web application that displays a minimalist, black-and-white station clock face. This initial version focuses solely on rendering the static clock face with numbers and markers, without any moving hands or time-telling logic.",
+  "requestFramePermissions": []
+}
